@@ -21,7 +21,7 @@ Now before we take some of what we learned about C++ and take it into Unreal, le
 
 <kbd></kbd> &nbsp;&nbsp; [Make Camera Default](camera-default/README.md#user-content-make-camera-default) 
 
-<kbd></kbd> &nbsp;&nbsp; [Mimic Our Final C++ Class](mimic-class/README.)
+<kbd></kbd> &nbsp;&nbsp; [Mimic Our Final C++ Class](mimic-class/README.md#user-content-make-mimic-our-final-c-class)
 
 <kbd></kbd> &nbsp;&nbsp; [Mimic Our Final C++ Class II](mimic-class-ii/README.md#user-content-make-mimic-our-final-c-class-ii) 
 
