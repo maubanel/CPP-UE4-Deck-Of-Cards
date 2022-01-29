@@ -31,6 +31,7 @@ Now before we take some of what we learned about C++ and take it into Unreal, le
 
 <kbd></kbd> &nbsp;&nbsp; [Show Back of Cards](back-cards/README.md#user-content-show-back-of-cards) 
 
+<kbd></kbd> &nbsp;&nbsp; [Deck of Cards](deck/README.md#user-content-deck-of-cards) 
 <!-- LICENSE -->
 ## License
 Distributed under the MIT License. See `LICENSE` for more information: [link](LICENSE).
