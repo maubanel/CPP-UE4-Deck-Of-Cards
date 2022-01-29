@@ -21,6 +21,8 @@ Now before we take some of what we learned about C++ and take it into Unreal, le
 
 <kbd></kbd> &nbsp;&nbsp; [Make Camera Default](camera-default/README.md#user-content-make-camera-default) 
 
+<kbd></kbd> &nbsp;&nbsp; [Mimic Our Final C++ Class(mimic-class/README.md#user-content-make-mimic-our-final-c++-class) 
+
 <!-- LICENSE -->
 ## License
 Distributed under the MIT License. See `LICENSE` for more information: [link](LICENSE).
