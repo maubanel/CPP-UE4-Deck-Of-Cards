@@ -35,6 +35,9 @@ Now before we take some of what we learned about C++ and take it into Unreal, le
 
 <kbd></kbd> &nbsp;&nbsp; [Add Set Card Suit](add-scs/README.md#user-content-add-set-card-suit) 
 
+<kbd></kbd> &nbsp;&nbsp; [Make Card Clickable](clickable/README.md#user-content-make-card-clickable) 
+
+
 <!-- LICENSE -->
 ## License
 Distributed under the MIT License. See `LICENSE` for more information: [link](LICENSE).
