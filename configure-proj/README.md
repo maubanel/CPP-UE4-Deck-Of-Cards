@@ -6,7 +6,7 @@
 
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
-Chapter introduction here.
+Now we want to take out the extraneous object we don't need and set the default camera to the one we loaded into the scene.  We do this by adding some custom setup files that default ones are provided for us (and add all these files).
 
 <br>
 
@@ -15,128 +15,58 @@ Chapter introduction here.
 
 ##### `Step 1.`\|`SPCRK`|:small_blue_diamond:
 
-![alt_text](images/.jpg)
+Add a new **Blueprint** and this time select a **Player Controller** class.  We need to add a cursor and cursor events as we will be handling the cards with a mouse.
+
+![alt_text](images/SelectPlayerControllerClass.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.jpg)
+Now name the blueprint `BP_Card_PlayerController` and make sure that you enable **Show Mouse Cursor**, **Enable Click Events** and **Enable Mouse Over Events**.  We are not supporting mobile so you can leave the touch events disabled.
+
+![alt_text](images/PlayerControllerCursor.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 3.`\|`SPCRK`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+Now create a new **Blueprint** and select **Game Mode Base** as the base class.
+
+![alt_text](images/SelectGameModeBaseClass.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 4.`\|`SPCRK`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+Call this file `BP_Card_GameModeBase`.
+
+![alt_text](images/CardGameModeBaseName.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 5.`\|`SPCRK`| :small_orange_diamond:
 
-![alt_text](images/.jpg)
+ Now double click this blueprint and turn off the **Game Session Class** as we will not be using networking features.  Change the **Player Controller Class** to `BP_Card_PlayerController`.  Turn off the **Default Pawn Class** so that you don't control a player when playing the game.
+
+![alt_text](images/CustomizeGameMode.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 6.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+ Now we are not done.  This Game Mode still won't launch until we set it.  Press the **Settings** button and select **World Settings**.
+
+![alt_text](images/WorldSettingsWindow.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 7.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+Now the **World Settings** tab appears to the right behind the **Details** panel.  Change the **GameMode Override** to `BP_Card_GameModeBase`.
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![alt_text](images/NewGameModeBaseWS.jpg)
 
-##### `Step 8.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-![alt_text](images/.jpg)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 9.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-![alt_text](images/.jpg)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 10.`\|`SPCRK`| :large_blue_diamond:
-
-![alt_text](images/.jpg)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 11.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: 
-
-![alt_text](images/.jpg)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-
-##### `Step 12.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
-
-![alt_text](images/.jpg)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 13.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
-
-![alt_text](images/.jpg)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 14.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
-
-![alt_text](images/.jpg)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 15.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: 
-
-![alt_text](images/.jpg)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 16.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
-
-![alt_text](images/.jpg)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 17.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
-
-![alt_text](images/.jpg)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 18.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-![alt_text](images/.jpg)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 19.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-![alt_text](images/.jpg)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 20.`\|`SPCRK`| :large_blue_diamond: :large_blue_diamond:
-
-![alt_text](images/.jpg)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 21.`\|`SPCRK`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
-
-![alt_text](images/.jpg)
 
 ___
 
