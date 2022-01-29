@@ -19,6 +19,8 @@ Now before we take some of what we learned about C++ and take it into Unreal, le
 
 <kbd></kbd> &nbsp;&nbsp; [Configure Projects](configure-proj/README.md#user-content-configure-projects) <br>
 
+<kbd></kbd> &nbsp;&nbsp; [Make Camera Default](camera-default/README.md#user-content-make-camera-default) 
+
 <!-- LICENSE -->
 ## License
 Distributed under the MIT License. See `LICENSE` for more information: [link](LICENSE).
