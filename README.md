@@ -39,6 +39,8 @@ Now before we take some of what we learned about C++ and take it into Unreal, le
 
 <kbd></kbd> &nbsp;&nbsp; [Create Two Piles](two-piles/README.md#user-content-create-two-piles) 
 
+<kbd></kbd> &nbsp;&nbsp; [Finish Two Piles](finish-piles/README.md#user-content-finish-two-piles) 
+
 <!-- LICENSE -->
 ## License
 Distributed under the MIT License. See `LICENSE` for more information: [link](LICENSE).
