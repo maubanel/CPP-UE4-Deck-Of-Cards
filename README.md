@@ -27,6 +27,8 @@ Now before we take some of what we learned about C++ and take it into Unreal, le
 
 <kbd></kbd> &nbsp;&nbsp; [Dynamic Material](dynamic-material/README.md#user-content-dynamic-material) 
 
+<kbd></kbd> &nbsp;&nbsp; [User Selected Card Suit](user-select-suit/README.md#user-content-user-selected-card-suit) 
+
 <!-- LICENSE -->
 ## License
 Distributed under the MIT License. See `LICENSE` for more information: [link](LICENSE).
