@@ -15,7 +15,9 @@ Now before we take some of what we learned about C++ and take it into Unreal, le
 
 <kbd></kbd> &nbsp;&nbsp; [Setting Up](setting-up/README.md#user-content-setting-up) <br>
 
-<kbd></kbd> &nbsp;&nbsp; [Add Test Blueprint](test-bp/README.md#user-content-add-test-blueprint) <br>
+<kbd></kbd> &nbsp;&nbsp; [Add Test Blueprint](test-bp/README.md#user-content-add-up) <br>
+
+<kbd></kbd> &nbsp;&nbsp; [Configure Projects](configure-proj/README.md#user-content-configure-projects) <br>
 
 <!-- LICENSE -->
 ## License
